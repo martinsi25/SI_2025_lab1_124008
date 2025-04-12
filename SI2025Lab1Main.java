@@ -81,6 +81,23 @@ class TaskManager {
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
         // TODO: Implement sorting by priority logic
+        List<Task> lowTasks = new ArrayList<Task>();
+        List<Task> medTasks = new ArrayList<Task>();
+        List<Task> highTasks = new ArrayList<Task>();
+        
+        for (Task task : tasks) {
+            if (task.getPriority() == Priority.LOW)
+            	lowTasks.add(task);
+            if (task.getPriority() == Priority.MEDIUM)
+            	medTasks.add(task);
+            if (task.getPriority() == Priority.HIGH)
+            	highTasks.add(task);
+        }
+        
+        tasks.clear();
+        tasks.addAll(highTasks);
+        tasks.addAll(medTasks);
+        tasks.addAll(lowTasks);
     }
 
     // 5. Filter tasks by category
