@@ -1,0 +1,34 @@
+13. git fetch origin
+From https://github.com/martinsi25/SI_2025_lab1_124008
+ * [new branch]      2-find-all-completed-tasks -> origin/2-find-all-completed-tasks
+ * [new branch]      6-find-the-highest-priority-unfinished-task -> origin/6-find-the-highest-priority-unfinished-task
+ * [new branch]      8-mark-a-task-as-completed-by-name -> origin/8-mark-a-task-as-completed-by-name
+
+14. git checkout 2-find-all-completed-tasks
+Branch '2-find-all-completed-tasks' set up to track remote branch '2-find-all-completed-tasks' from 'origin'.
+Switched to a new branch '2-find-all-completed-tasks'
+
+15. gedit SI2025Lab1Main.java
+
+16. git add SI2025Lab1Main.java
+    git commit -m "Implement logic to return completed tasks"
+    
+17. git push -u origin 2-find-all-completed-tasks 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 453 bytes | 453.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/martinsi25/SI_2025_lab1_124008.git
+   f713fb8..07b6731  2-find-all-completed-tasks -> 2-find-all-completed-tasks
+Branch '2-find-all-completed-tasks' set up to track remote branch '2-find-all-completed-tasks' from 'origin'.
+
+20. Не се случија конфликти. Pull request successfully merged and closed
+
+22. git merge 8-mark-a-task-as-completed-by-name
+Не се случи конфликт, автоматски се спои со fast-forward.
+
+23. git push -u origin master 
+

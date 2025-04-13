@@ -1,0 +1,15 @@
+* 9eae7bd (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement completion logic
+*   8f3e844 Merge pull request #12 from martinsi25/6-find-the-highest-priority-unfinished-task
+|\  
+| * c1763b8 (origin/6-find-the-highest-priority-unfinished-task, 6-find-the-highest-priority-unfinished-task) Implement logic to find most urgent tasks
+* |   b2fc102 Merge pull request #10 from martinsi25/2-find-all-completed-tasks
+|\ \  
+| |/  
+|/|   
+| * 07b6731 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) Implement logic to return completed tasks
+|/  
+| * f297e51 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Implement sorting by priority logic
+|/  
+* f713fb8 Add starter code
+* 080eaa4 Initial commit
+
